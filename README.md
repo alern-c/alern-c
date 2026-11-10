@@ -1,31 +1,16 @@
-<!-- 1. GitHub usernameを変更 -->
-<div align="right">
-  <img src="https://komarev.com/ghpvc/?username=alern-c" />
-</div>
+# Manato Ogata (@alern-c)
 
+小さな開発ツールを作っています。SQLite / Cloudflare D1 と Cloudflare Workers まわりが中心で、
+書くのは Zig・TypeScript・Go が多いです。
 
-<!-- 4. GitHub usernameを変更, 2箇所 -->
-<!-- ライトモート：theme=light, ダークモート：theme=vue-dark  -->
-## 🏃‍♀️ Activities
-<div align="left"> 
-  <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=alern-c&theme=vue-dark&layout=compact" />
-  <img alt="github stats" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alern-c&theme=vue-dark&layout=compact" />
-</div>
+## 代表作
 
+### [Qenome](https://github.com/alern-c/Qenome) — インデックスが効くかを、マージ前に確かめる
 
-<!--
-This repository is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+`npx qenome --d1 DEMO_DB select.sql --suggest` の1コマンドで、候補のインデックスを
+サンドボックスのコピー上で比較します。サンプルでは読み取りが 200,000行 → 101行。
+元のDBは変更しません。
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
+[![npm version](https://img.shields.io/npm/v/qenome?style=flat-square)](https://www.npmjs.com/package/qenome)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://github.com/alern-c/Qenome/blob/main/LICENSE)
+対応: Linux / macOS（x64, arm64）
