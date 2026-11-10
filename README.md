@@ -1,16 +1,27 @@
 # Manato Ogata (@alern-c)
 
-小さな開発ツールを作っています。SQLite / Cloudflare D1 と Cloudflare Workers まわりが中心で、
-書くのは Zig・TypeScript・Go が多いです。
+I build small developer tools, mostly around SQLite, Cloudflare D1, and Cloudflare Workers.
+I write Zig, TypeScript, and Go.
 
-## 代表作
+## Featured
 
-### [Qenome](https://github.com/alern-c/Qenome) — インデックスが効くかを、マージ前に確かめる
+### [Qenome](https://github.com/alern-c/Qenome) — check an index before you merge it
 
-`npx qenome --d1 DEMO_DB select.sql --suggest` の1コマンドで、候補のインデックスを
-サンドボックスのコピー上で比較します。サンプルでは読み取りが 200,000行 → 101行。
-元のDBは変更しません。
+One command compares a candidate index on a sandbox copy of your database:
+
+```sh
+npx qenome --d1 DEMO_DB select.sql --suggest
+```
+
+In the sample project, rows read drop from 200,000 to 101. The original database is never modified.
 
 [![npm version](https://img.shields.io/npm/v/qenome?style=flat-square)](https://www.npmjs.com/package/qenome)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://github.com/alern-c/Qenome/blob/main/LICENSE)
-対応: Linux / macOS（x64, arm64）
+Linux and macOS (x64, arm64)
+
+## GitHub Stats
+
+<div align="left">
+  <img alt="GitHub stats" height="170" src="https://github-readme-stats.vercel.app/api?username=alern-c&theme=vue-dark&layout=compact&show_icons=true" />
+  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alern-c&theme=vue-dark&layout=compact" />
+</div>
