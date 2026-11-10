@@ -22,6 +22,9 @@ Linux and macOS (x64, arm64)
 ## GitHub Stats
 
 <div align="left">
-  <img alt="GitHub stats" height="170" src="https://github-readme-stats.vercel.app/api?username=alern-c&theme=vue-dark&layout=compact&show_icons=true" />
-  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alern-c&theme=vue-dark&layout=compact" />
+  <img alt="GitHub profile details for alern-c" height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alern-c&theme=vue" />
+</div>
+
+<div align="left">
+  <img alt="Contribution streak for alern-c" height="195" src="https://streak-stats.demolab.com?user=alern-c&theme=vue" />
 </div>
