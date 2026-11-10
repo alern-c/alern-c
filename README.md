@@ -18,3 +18,10 @@ In the sample project, rows read drop from 200,000 to 101. The original database
 [![npm version](https://img.shields.io/npm/v/qenome?style=flat-square)](https://www.npmjs.com/package/qenome)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://github.com/alern-c/Qenome/blob/main/LICENSE)
 Linux and macOS (x64, arm64)
+
+## GitHub Stats
+
+<div align="left">
+  <img alt="GitHub stats" height="170" src="https://github-readme-stats.vercel.app/api?username=alern-c&theme=vue-dark&layout=compact&show_icons=true" />
+  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alern-c&theme=vue-dark&layout=compact" />
+</div>
